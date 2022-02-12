@@ -5,13 +5,13 @@ public class Divisibility {
 
                 Scanner scanner = new Scanner(System.in);
 
-                System.out.println("Write the first number, number A: ");
+                System.out.println("Write the first number: ");
 
                 int numberA = Integer.valueOf(scanner.nextLine());
                 int divisibilityByThree = numberA%3;
 
                 if (divisibilityByThree != 0){
-                    System.out.println("You entered the the wrong number!");
+                    System.out.println("The number you have entered is wrong. It needs to be divisible by three!");
                 }else if (numberA<10) {
                     System.out.println("You entered the number lower than 10.");
                 }else if (numberA>10000) {
@@ -28,22 +28,6 @@ public class Divisibility {
                     }else System.out.println("The number A is not divisible by the number B!");
 
                 }
-
-
-
-
-
-//                } else if (){
-//                    System.out.println("The number A is divisible by the number B");
-//                }else System.out.println("The number A is not divisible by the number B");
-
             }
 
-
-
-
-// && (divisibilityByThree != 0) && (numberA<10 &&) && (numberA>10000)
-//*Broj A mora biti veci od 10
-//        *Broj A mora biti djeljiv i sa 3
-//        *Broj A ne smije biti vec od 10000;
 

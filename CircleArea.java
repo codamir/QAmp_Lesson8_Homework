@@ -13,11 +13,6 @@ public class Povrsina_kruga {
         System.out.println("The area of a circle is: "+circleArea + " cm2");
 
 
-//
-//        double radius = 6;
-//
-        //
-
         }
     }
 
